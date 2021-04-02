@@ -1,7 +1,7 @@
 /*! clipboard-copy. MIT License. Feross Aboukhadijeh <https://feross.org/opensource> */
 /* global DOMException */
 
-module.exports = clipboardCopy
+export default clipboardCopy
 
 function makeError () {
   return new DOMException('The request is not allowed', 'NotAllowedError')
